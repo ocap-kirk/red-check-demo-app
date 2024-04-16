@@ -1,0 +1,88 @@
+{
+  "companies": [
+    {
+      "companyId": "1",
+      "name": "Gryffindor",
+      "accounts": [
+        {
+          "accountId": "101",
+          "users": [
+            {
+              "userId": "1001",
+              "name": "Harry Potter",
+              "canViewBills": true,
+              "line": {
+                "lineId": "10001",
+                "description": "Firebolt maintenance"
+              }
+            },
+            {
+              "userId": "1002",
+              "name": "Hermione Granger",
+              "canViewBills": false,
+              "line": {
+                "lineId": "10002",
+                "description": "Library book access"
+              }
+            }
+          ],
+          "bills": [
+            {
+              "billId": "5001",
+              "description": "Quidditch supplies",
+              "amount": 300
+            },
+            {
+              "billId": "5002",
+              "description": "Common room decorations",
+              "amount": 150
+            }
+          ],
+          "lines": [
+            {
+              "lineId": "10001",
+              "description": "Firebolt maintenance"
+            },
+            {
+              "lineId": "10002",
+              "description": "Library book access"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "companyId": "2",
+      "name": "Slytherin",
+      "accounts": [
+        {
+          "accountId": "102",
+          "users": [
+            {
+              "userId": "1003",
+              "name": "Draco Malfoy",
+              "canViewBills": true,
+              "line": {
+                "lineId": "10003",
+                "description": "Broomstick polishing"
+              }
+            }
+          ],
+          "bills": [
+            {
+              "billId": "5003",
+              "description": "Dungeon lighting upgrade",
+              "amount": 200
+            }
+          ],
+          "lines": [
+            {
+              "lineId": "10003",
+              "description": "Broomstick polishing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
