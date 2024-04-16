@@ -41,19 +41,19 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 pages/
 └── api/
     └── companies/
-        ├── index.js          
-        ├── [companyId].js    
-        ├── [companyId]/
-        │   ├── users/
-        │   │   └── index.js  
-        │   └── accounts/
-        │       ├── index.js
-        │       ├── [accountId]/
-        │       │   ├── index.js
-        │       │   ├── bills/
-        │       │   │   ├── index.js  
-        │       │   │   └── [billId].js 
-        │       │   └── lines/
-        │       │       ├── index.js  
-        │       │       └── [lineId].js 
+        ├── index.js                
+        ├── [companyId].js          
+        └── [companyId]/
+            ├── accounts/
+            │   ├── index.js        
+            │   ├── [accountId].js  
+            │   ├── bills/
+            │   │   ├── index.js    
+            │   │   └── [billId].js 
+            │   └── lines/
+            │       ├── index.js    
+            │       └── [lineId].js 
+            └── users/
+                ├── index.js        
+                └── [userId].js   
 ```
